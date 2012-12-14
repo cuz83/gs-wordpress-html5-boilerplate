@@ -13,7 +13,7 @@ function gsd_wordpress_scripts() {
 	// 1
 	wp_enqueue_style('gsd_reset', get_template_directory_uri() . '/assets/css/reset.css', false, null);
 	// 2
-	wp_enqueue_style('gsd_style', get_template_directory_uri() . '/assets/css/style.css', false, null);
+	wp_enqueue_style('gsd_style', get_template_directory_uri() . '/assets/css/system.css', false, null);
 	// 3
 	wp_enqueue_style('gsd_respd', get_template_directory_uri() . '/assets/css/respond.css', array('gsd_style'), null);
 
