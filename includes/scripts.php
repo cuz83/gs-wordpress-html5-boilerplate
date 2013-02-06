@@ -19,11 +19,11 @@ function gsd_wordpress_scripts() {
 
 // SCRIPTS
 	// 1
-	wp_register_script( 'modernizr', get_template_directory_uri() . '/assets/js/modernizr-1.6.min.js', false, null, true);
+	wp_register_script( 'modernizr', get_template_directory_uri() . '/assets/js/modernizr-1.6.min.js', false, null, false);
 	wp_enqueue_script( 'modernizr' );
 	// 2
 	wp_deregister_script( 'jquery' );
-	wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js', false, null, true);
+	wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js', false, null, true);
 	wp_enqueue_script( 'jquery' );
 	// 3
 	wp_register_script( 'cookie-law', get_template_directory_uri() . '/assets/js/easy.notification.min.js', false, null, true);
